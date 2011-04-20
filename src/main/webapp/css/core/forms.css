@@ -1,0 +1,292 @@
+/* general form */
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+.form-title {
+  font-size: 160%;
+	font-weight: bold;
+  margin: 0;	
+  padding: 10px 0 5px 0;
+  color: #333333;
+  text-shadow: 1px 1px #cccccc;
+}
+
+.form-text {
+	margin: 0 0 10px 0;
+}
+  
+.form-section {
+  clear: both;
+  border-color: #bbbbbb;
+  border-width: 1px 1px 1px 0;
+  border-style: solid solid solid none;
+  padding: 15px;
+  margin: 0;
+  position: relative;  
+  -moz-border-radius-topright: 3px;  
+  -moz-border-radius-bottomright: 3px; 
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+}
+
+.form-section-title {
+  font-size: 130%;
+  font-weight: normal;
+  margin: 0;
+  padding: 15px 0 5px 0;
+  color: #333333;
+  text-shadow: 1px 1px #cccccc; 
+}
+
+input, select, textarea {
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+  border: 1px solid #bbbbbb;
+  background-color: #ffffff;
+  padding: 2px 3px;
+  -moz-border-radius: 3px;  
+  -webkit-border-radius: 3px;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+}
+
+.datepicker {
+  width: 100px;	
+  margin-right:5px;
+}
+
+.hform-field {
+  position: relative;
+  width: 550px;
+  margin: 0 0 8px 160px;  
+}
+
+.vform-field {
+  position: relative;
+  width: 550px;
+  margin: 0 0 10px 0;  
+}
+
+.hform-field label {
+  display: block;
+  position: absolute;
+  top: 2px;
+  left:-175px;
+  width: 165px;
+  text-align: right;
+  color: #333333;
+}
+
+.vform-field label {
+  display: block;
+  padding: 0;
+  margin: 0 0 3px 0;
+  color: #333333;
+}
+
+.form-aligned {
+	margin: 0 0 0 175px;
+}
+
+.buttons-section {
+	padding: 20px 0 0 0;
+}
+
+.links-section {
+  padding: 15px 0 10px 0;	
+}
+
+/* form info */
+
+.form-info {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 200px;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.form-info h4 {
+  border-top: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  -moz-border-radius-topright: 3px;  
+  -moz-border-radius-bottomright: 3px; 
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;  
+  font-weight: bold;
+  padding: 5px;
+  margin: 0;
+  color: #333333;
+  background-color: #edeff4;
+}
+
+.form-info p {
+  margin: 7px 5px;
+}
+
+/* messages */
+
+.form-error, .field-error, .form-message, .form-alert {
+  -moz-border-radius: 3px;  
+  -webkit-border-radius: 3px; 
+  margin: 5px 0 12px 0;    
+}
+
+.form-error h2, .form-message  h2, .form-alert h2,
+.form-error h3, .form-message  h3, .form-alert h3,
+.form-error h4, .form-message  h4, .form-alert h4  {
+  padding: 0;
+  margin: 0;
+}
+
+.form-error, .form-alert, .form-message {
+  padding: 10px 10px 10px 35px;
+}
+
+.form-error, .field-error {
+  background: #fcdfff url(/img/core/cancel.png);
+  background-repeat: no-repeat;
+  background-position:10px 50%;
+  color: #c11b17;  
+}
+
+.field-error {
+  padding: 7px 10px 7px 35px;
+}
+
+.form-alert {
+  background: #ccffbb url(/img/core/tick.png);
+  background-repeat: no-repeat;
+  background-position:10px 50%;  
+  color: #114400;
+}
+
+.form-message {
+  background: #e8eaef url(/img/core/information.png);
+  background-repeat: no-repeat;
+  background-position:10px 50%;  
+  color: #151b54;
+}
+
+label.required {
+  font-weight: bold;
+}
+
+.dot {
+	color: #2b60de;
+	padding-right: 5px;
+  font-weight: bold;
+}
+
+.field-info, .field-error {
+  display: block;
+}
+
+.field-info {
+  color: #666666;
+  padding: 3px 0 0 0 ;  
+}
+
+.error {
+	background-color: #fcdfff;
+}
+
+.field-info-label {
+  color: #666666;	
+	font-weight:bold;
+	padding-right:5px;
+}
+
+/* generic heights and widths */
+
+.tiny {
+	width: 50px;
+}
+
+.small {
+	width: 100px;
+}
+
+.normal {
+	width: 150px;
+}
+
+.wide {
+  width: 250px;
+}
+
+.very-wide {
+  width: 350px;
+}
+
+.enormous {
+  width: 450px;
+}
+
+.puny {
+  height: 25px;
+}
+
+.short {
+  height: 50px;
+}
+
+.average {
+  height: 100px;
+}
+
+.tall {
+  height: 150px;
+}
+
+.very-tall {
+  height: 200px;
+}
+
+.huge {
+  height: 300px;
+}
+
+/* radio buttons and checkboxes */
+
+.check-group, .radio-group {
+  border: 1px solid #aaaaaa;
+  -moz-border-radius: 3px;  
+  -webkit-border-radius: 3px;
+}
+
+.check-group {
+  padding: 2px 3px;	
+}
+
+.radio-group {
+  padding: 2px 3px 4px 3px; 
+}
+
+.cbr {
+  margin: 0;
+  padding: 0;
+}
+
+.cbr-label {
+	margin: 0;
+	padding: 0 10px 0 0;
+	font-size: 12px;
+}
+
+/* scrollable info */
+
+.scrollable-info {
+  overflow: auto;	
+  border: 1px solid #aaaaaa;
+  -moz-border-radius: 3px;  
+  -webkit-border-radius: 3px;	
+  padding: 10px;
+}

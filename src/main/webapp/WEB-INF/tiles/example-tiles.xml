@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC 
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" 
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+            
+  <definition name="example.1" extends="base">
+    <put-attribute name="content" value="/WEB-INF/jsp/example1.jsp" />
+  </definition>
+
+  <definition name="example.2" extends="base">
+    <put-attribute name="content" value="/WEB-INF/jsp/example2.jsp" />
+  </definition>
+
+  <definition name="example.3.path1" extends="base">
+    <put-attribute name="content" value="/WEB-INF/jsp/example3-path1.jsp" />
+  </definition>
+
+  <definition name="example.3.path2" extends="base">
+    <put-attribute name="content" value="/WEB-INF/jsp/example3-path2.jsp" />
+  </definition>
+         
+</tiles-definitions>

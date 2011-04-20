@@ -1,0 +1,1 @@
+alert("this script source is embedded on the page.");

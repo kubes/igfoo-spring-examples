@@ -1,0 +1,54 @@
+.title {
+  font-size: 160%;
+  font-weight: bold;
+  margin: 0;  
+  padding: 10px 0 5px 0;
+  color: #333333;
+  text-shadow: 1px 1px #cccccc;
+}
+
+.section-title {
+  font-size: 130%;
+  font-weight: normal;
+  margin: 0;
+  padding: 15px 0 5px 0;
+  color: #333333;
+  text-shadow: 1px 1px #cccccc; 
+}
+
+.section {
+  clear: both;
+  border-color: #bbbbbb;
+  border-width: 1px 1px 1px 0;
+  border-style: solid solid solid none;
+  padding: 15px;
+  margin: 0;
+  position: relative;  
+  -moz-border-radius-topright: 3px;  
+  -moz-border-radius-bottomright: 3px; 
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+}
+
+.highlighted-message {
+  -moz-border-radius: 3px;  
+  -webkit-border-radius: 3px; 
+  margin: 5px 0 12px 0;    
+  padding: 10px;  
+  background-color:#ffff66;
+}
+
+.highlighted-message h2, .highlighted-message h3, .highlighted-message h4 {
+  padding: 0;
+  margin: 0;
+  color:#1a7cab;  
+}
+
+ol.aligned {
+  padding: 0 20px;
+  margin: 0;
+}
+
+ol.aligned li {
+  padding: 5px 0;
+}

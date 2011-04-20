@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Bundle for example 2</comment>
+
+<entry key="example2.title">Embedded Script</entry>
+<entry key="example2.description">An example of an embedded script.</entry>
+
+</properties>

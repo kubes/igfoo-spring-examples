@@ -1,0 +1,29 @@
+{
+    "aliases" : {
+    
+      "core.css" : "/css/core/core.css",
+      "forms.css" : "/css/core/forms.css",          
+      "buttons.css" : "/css/core/buttons.css",          
+      "sections.css" : "/css/core/sections.css",
+      
+      "jquery.js" : "/js/vendor/jquery-1.4.4.min.js",
+      "forms.js" : "/js/core/forms.js"
+      
+    },
+    
+    "title" : "global.title",
+    "meta" : [
+        {
+            "http-equiv": "Content-Type",
+            "content": "text/html; charset=utf-8" 
+        }
+    ],
+    
+    "scripts" : [
+        "${jquery.js}"
+    ],
+    
+    "links" : [
+        "${core.css}"
+    ] 
+}

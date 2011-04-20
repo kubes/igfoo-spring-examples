@@ -1,0 +1,15 @@
+{
+    "title": "example2.title",
+    "paths": ["/example2.html"],
+    "meta" : [
+        {
+            "name": "description",
+            "content": "example2.description" 
+        }
+    ],
+
+    "links" : [
+        "${forms.css}",            
+        "${buttons.css}" 
+    ] 
+}

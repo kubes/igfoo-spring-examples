@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Bundle for example 3</comment>
+
+<entry key="example3.first.title">Example 3 First Path</entry>
+<entry key="example3.first.description">Multiple paths single path, path one.</entry>
+
+<entry key="example3.second.title">Example 3 Second Path</entry>
+<entry key="example3.second.description">Multiple paths single path, path two.</entry>
+
+</properties>

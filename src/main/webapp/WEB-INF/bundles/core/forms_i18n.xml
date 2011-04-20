@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Bundle for user pages</comment>
+
+<entry key="forms.required.fields"><![CDATA[<span class="dot">*</span><strong>Bold</strong> fields are required.]]></entry>
+<entry key="forms.buttons.home">Homepage</entry>
+<entry key="forms.buttons.continue">Continue</entry>
+<entry key="forms.buttons.cancel">Cancel</entry>
+
+
+</properties>

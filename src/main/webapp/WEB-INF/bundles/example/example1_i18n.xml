@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Bundle for example 1</comment>
+
+<!-- title, keywords, and description -->
+<entry key="example1.title">Register a New Account</entry>
+<entry key="example1.description">Register a new user account.</entry>
+
+<!-- Registration information -->
+<entry key="example1.legend">Register a New Account</entry>
+<entry key="example1.info.title">Registration</entry>
+<entry key="example1.info.text">
+<![CDATA[
+<p>Please enter your name, email, and password to create a new account.</p>
+<p>After clicking Sign Up, an email will be sent to verify your email address.</p>
+]]>
+</entry>
+
+<!-- Registration Form -->
+<entry key="example1.fullname.label">Full Name:</entry>
+<entry key="example1.fullname.extra">Full name can contain only a-z, A-Z, spaces, and periods.</entry>
+<entry key="example1.email.label">Email:</entry>
+<entry key="example1.email.extra">Your email is used to uniquely identify your account.</entry>
+<entry key="example1.password.label">Password:</entry>
+<entry key="example1.password.extra">Passwords are case sensitive.</entry>
+<entry key="example1.cpassword.label">Confirm Password:</entry>
+<entry key="example1.cpassword.extra">Please re-enter your password to confirm.</entry>
+<entry key="example1.button.signup">Sign Up</entry>
+
+<entry key="example1.links.recover">Recover Password</entry>
+<entry key="example1.links.existing">Sign In to an Existing Account</entry>
+
+</properties>

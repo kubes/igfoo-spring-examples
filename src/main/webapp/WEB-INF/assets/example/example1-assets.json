@@ -1,0 +1,21 @@
+[
+    {
+        "title": "example1.title",
+        "paths": ["/example1.html"],
+        "meta" : [
+            {
+                "name": "description",
+                "content": "example1.description" 
+            }
+        ],
+        
+        "scripts" : [
+            "/js/core/example1.js"
+        ],
+    
+        "links" : [
+            "${forms.css}",            
+            "${buttons.css}" 
+        ] 
+    }
+]

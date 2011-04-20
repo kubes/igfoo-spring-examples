@@ -1,0 +1,12 @@
+[
+  {
+      "name": "my-named-resource",    
+      "scripts" : [
+        {
+          "id": "embedded-script",
+          "type": "text/javascript",
+          "embed": "/js/core/example2.js"
+        } 
+      ]
+  }
+]

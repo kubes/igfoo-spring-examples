@@ -1,0 +1,32 @@
+[
+  {
+      "title": "example3.first.title",
+      "paths": ["example3-first-path"],
+      "meta" : [
+          {
+              "name": "description",
+              "content": "example3.first.description" 
+          }
+      ],
+  
+      "links" : [
+          "${forms.css}",            
+          "${buttons.css}" 
+      ] 
+  },
+  {
+      "title": "example3.second.title",
+      "paths": ["example3-second-path"],
+      "meta" : [
+          {
+              "name": "description",
+              "content": "example3.second.description" 
+          }
+      ],
+  
+      "links" : [
+          "${forms.css}",            
+          "${buttons.css}" 
+      ] 
+  }
+]
